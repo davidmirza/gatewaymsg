@@ -24,7 +24,19 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+this project is for gateway message for chat using Mestjs, Socket.IO, RabbitMQ 
+
+## Test Data
+
+to test the data can use POSTMAN and choose Socket.IO then for the data using JSON format as bellow
+```bash
+{
+"email":"test@mail.con,
+"user":"User",
+"content":"message test"
+}
+```
+and for the event name is <b>SendMessage</b>
 
 ## Installation
 
